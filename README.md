@@ -10,6 +10,16 @@ cd new-folder-project
 
 git init
 
+\##Add first commit
+
+git add README.md
+
+git commit -m "inital commit"
+
+\##create new main branch
+
+git branch -M main
+
 \##login Github
 
 gh auth login
@@ -17,6 +27,4 @@ gh auth login
 //create git repo on remote
 
 gh repo create my-project --public --source=. --remote=origin --push
-
-
 
