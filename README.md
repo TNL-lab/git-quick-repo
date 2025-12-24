@@ -26,5 +26,9 @@ gh auth login
 
 //create git repo on remote
 
-gh repo create my-project --public --source=. --remote=origin --push
+gh repo create my-project --public --source=. --remote=origin
+
+\##push code 
+
+git push -u origin main
 
